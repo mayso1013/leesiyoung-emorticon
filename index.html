@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <title>KakaoLink Test</title>
+
+    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <style>
+
+.button {
+
+  background-color: #555555;
+
+  border: none;
+
+  color: white;
+
+  padding: 15px 32px;
+
+  text-align: center;
+
+  text-decoration: none;
+
+  display: block;
+
+  font-size: 16px;
+
+  margin: 10px auto;
+
+  cursor: pointer;
+
+  width: 200px;
+
+}
+
+.button:hover {
+
+  background-color: #777777;
+
+}
+
+</style>
+
+<div style="text-align: center;">
+
+  <button onclick="sendLinkDefault()" class="button">우는 정원찬 보내기</button>
+
+  <button onclick="sendLinkDefaultt()" class="button">부끄러운 정원찬 보내기</button>
+
+  <button onclick="sendLinkDefaulttt()" class="button">화난 정원찬 보내기</button>
+
+  <button onclick="sendLinkDefaultttt()" class="button">윙크 정원찬 보내기</button>
+
+  <button onclick="sendLinkDefaulttttt()" class="button">욕 멈춰 하는 정원찬 보내기</button>
+
+  <button onclick="sendLinkDefaultttttt()" class="button">웃는 정원찬 보내기</button>
+
+  <button onclick="sendLinkDefaulttttttt()" class="button">놀리는 정원찬 보내기</button>
+
+  <button onclick="sendLinkDefaula×()" class="button">망상하는 정원찬 보내기</button>
+
+  <button onclick="sendLinkDefaulaa()" class="button">어쩔 하는 정원찬 보내기</button>
+
+</div>
+
+    
+
+    <script>
+
+      function sendLinkDefault() {
+
+        Kakao.init('4f119860c0f5fa3b9347c625fe3afe80');
+
+        Kakao.Link.sendDefault({
+
+          objectType: 'feed',
+
+          content: {
+
+            title: '우는 정원찬',
+
+            
+
+            imageUrl: 'https://mblogthumb-phinf.pstatic.net/MjAyMzA1MjFfODMg/MDAxNjg0NjAwNjQ1ODgx.gIDm2Fi57NmIvydKmfFhxWipJwLIento_sira3Sbfugg.Ubj7mdPDQUCzK-YIGdIOY-WXh5dkvSQcEecn08kb1_Yg.PNG.co755746/%EB%AC%B4%EC%A0%9C115%EF%BC%BF20230521013645.png?type=w800',
+
+            link: {
+
+              mobileWebUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+              webUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+            },
+
+          },
+
+          buttons: [
+
+            {
+
+              title: '다운 받기',
+
+              link: {
+
+                mobileWebUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+                webUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+              },
+
+            },
+
+          ],
+
+        });
+
+      }
+
+    </script>
+
+    <script>
+
+      function sendLinkDefaultt() {
+
+        Kakao.init('4f119860c0f5fa3b9347c625fe3afe80');
+
+        Kakao.Link.sendDefault({
+
+          objectType: 'feed',
+
+          content: {
+
+            title: '부끄러운 정원찬',
+
+            
+
+            imageUrl: 'https://mblogthumb-phinf.pstatic.net/MjAyMzA1MjFfMTI5/MDAxNjg0NjAyOTI3MTE2._bAS7k8s5v90hpDArJHEUfwmAvNDswtgCW4kG9KJbuIg.ksL1ID7YK6spnSJi70nbxzaZwQBaQTONcztrHg3Kjfkg.PNG.co755746/%EB%AC%B4%EC%A0%9C115%EF%BC%BF20230521021417.png?type=w800',
+
+            link: {
+
+              mobileWebUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+              webUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+            },
+
+          },
+
+          buttons: [
+
+            {
+
+              title: '다운 받기',
+
+              link: {
+
+                mobileWebUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+                webUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+              },
+
+            },
+
+          ],
+
+        });
+
+      }
+
+    </script>
+
+    <script>
+
+      function sendLinkDefaulttt() {
+
+        Kakao.init('4f119860c0f5fa3b9347c625fe3afe80');
+
+        Kakao.Link.sendDefault({
+
+          objectType: 'feed',
+
+          content: {
+
+            title: '화내는 정원찬',
+
+            
+
+            imageUrl: 'https://mblogthumb-phinf.pstatic.net/MjAyMzA1MjFfMTY3/MDAxNjg0Njc0MjczMjky.fAV4SGQOoXuoOHABiG7M-fLXhnoDLaZYV6uDgYI49hMg.0kLV5DgMpa_y20437g-9nyiUsgBYFBWe8Fz-xmQ-PUog.PNG.co755746/%EB%AC%B4%EC%A0%9C115%EF%BC%BF20230521220356.png?type=w800',
+
+            link: {
+
+              mobileWebUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+              webUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+            },
+
+          },
+
+          buttons: [
+
+            {
+
+              title: '다운 받기',
+
+              link: {
+
+                mobileWebUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+                webUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+              },
+
+            },
+
+          ],
+
+        });
+
+      }
+
+    </script>
+
+    <script>
+
+      function sendLinkDefaultttt() {
+
+        Kakao.init('4f119860c0f5fa3b9347c625fe3afe80');
+
+        Kakao.Link.sendDefault({
+
+          objectType: 'feed',
+
+          content: {
+
+            title: '윙크 하는 정원찬',
+
+            
+
+            imageUrl: 'https://mblogthumb-phinf.pstatic.net/MjAyMzA1MjJfMjAx/MDAxNjg0NzU4MzY5NTA3.hIbJSq-27JL8Ats39jIFRWyXoOlpPvz5pXLMuk-G5U8g.Ha_HOFGzXUz0ld35giDFKZ2etrwpTKcnpaOpcRN8OBsg.PNG.co755746/%EB%AC%B4%EC%A0%9C134%EF%BC%BF20230522212502.png?type=w800',
+
+            link: {
+
+              mobileWebUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+              webUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+            },
+
+          },
+
+          buttons: [
+
+            {
+
+              title: '다운 받기',
+
+              link: {
+
+                mobileWebUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+                webUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+              },
+
+            },
+
+          ],
+
+        });
+
+      }
+
+    </script>
+
+   <script>
+
+      function sendLinkDefaulttttt() {
+
+        Kakao.init('4f119860c0f5fa3b9347c625fe3afe80');
+
+        Kakao.Link.sendDefault({
+
+          objectType: 'feed',
+
+          content: {
+
+            title: '욕 멈춰! 하는 정원찬',
+
+            
+
+            imageUrl: 'https://mblogthumb-phinf.pstatic.net/MjAyMzA1MjFfMTE1/MDAxNjg0NjgwMTg4Mzgz.5QW0AlO5dfBjzHXo_kvj8oxJhBTXi8FDR5kW3wg8l6Ug.k8rrAWC-iQdsSAOhVWTWb0gMxUeZM6aUmh2sGVZoJLcg.PNG.co755746/%EB%AC%B4%EC%A0%9C115%EF%BC%BF20230521234212.png?type=w800',
+
+            link: {
+
+              mobileWebUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+              webUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+            },
+
+          },
+
+          buttons: [
+
+            {
+
+              title: '다운 받기',
+
+              link: {
+
+                mobileWebUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+                webUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+              },
+
+            },
+
+          ],
+
+        });
+
+      }
+
+    </script>
+
+    <script>
+
+      function sendLinkDefaultttttt() {
+
+        Kakao.init('4f119860c0f5fa3b9347c625fe3afe80');
+
+        Kakao.Link.sendDefault({
+
+          objectType: 'feed',
+
+          content: {
+
+            title: '웃는 정원찬',
+
+            
+
+            imageUrl: 'https://mblogthumb-phinf.pstatic.net/MjAyMzA1MjJfMTc3/MDAxNjg0NzU5MDUyMjQw.1dFJlIz646TpCCtD-vav_RLMqdZ5c5-u5MU9eWLbScYg.LUO-VIsbOqLGNlZuXSkDfFsm-bZxIWAxOcGjcdLVSWMg.PNG.co755746/%EB%AC%B4%EC%A0%9C135%EF%BC%BF20230522213649.png?type=w800',
+
+            link: {
+
+              mobileWebUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+              webUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+            },
+
+          },
+
+          buttons: [
+
+            {
+
+              title: '다운 받기',
+
+              link: {
+
+                mobileWebUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+                webUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+              },
+
+            },
+
+          ],
+
+        });
+
+      }
+
+    </script>
+
+    <script>
+
+      function sendLinkDefaulttttttt() {
+
+        Kakao.init('4f119860c0f5fa3b9347c625fe3afe80');
+
+        Kakao.Link.sendDefault({
+
+          objectType: 'feed',
+
+          content: {
+
+            title: '놀ㄹㅣ는 정원찬',
+
+            
+
+            imageUrl: 'https://mblogthumb-phinf.pstatic.net/MjAyMzA1MjJfMTAy/MDAxNjg0NzU5NzY2MTYw.pSt38_a1zd3tUlXdLHcB7551Re8FDpPfYldxfNJkIZAg.pACCbuCezBpE1VVj376yOmIdzHn85AOsrekqs4SEIb4g.PNG.co755746/%EB%AC%B4%EC%A0%9C136%EF%BC%BF20230522214902.png?type=w800',
+
+            link: {
+
+              mobileWebUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+              webUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+            },
+
+          },
+
+          buttons: [
+
+            {
+
+              title: '다운 받기',
+
+              link: {
+
+                mobileWebUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+                webUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+              },
+
+            },
+
+          ],
+
+        });
+
+      }
+
+    </script>
+
+    <script>
+
+      function sendLinkDefaula() {
+
+        Kakao.init('4f119860c0f5fa3b9347c625fe3afe80');
+
+        Kakao.Link.sendDefault({
+
+          objectType: 'feed',
+
+          content: {
+
+            title: '망상하는 정원찬',
+
+            
+
+            imageUrl: 'https://mblogthumb-phinf.pstatic.net/MjAyMzA1MDdfMjE2/MDAxNjgzNDQ2ODc1OTE2.v2Z4EVaCN03gOMlUksy61uGlbdRiguGZwrjhgtm6Sbgg.ZCgLK1czseJ5KonWBFTVckhgDcsmU0NrdhXxRibe10kg.PNG.co755746/%EB%AC%B4%EC%A0%9C125%EF%BC%BF20230507170727.png?type=w800',
+
+            link: {
+
+              mobileWebUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+              webUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+            },
+
+          },
+
+          buttons: [
+
+            {
+
+              title: '다운 받기',
+
+              link: {
+
+                mobileWebUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+                webUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+              },
+
+            },
+
+          ],
+
+        });
+
+      }
+
+    </script>
+
+    <script>
+
+      function sendLinkDefaulaa() {
+
+        Kakao.init('4f119860c0f5fa3b9347c625fe3afe80');
+
+        Kakao.Link.sendDefault({
+
+          objectType: 'feed',
+
+          content: {
+
+            title: 'ㅇㅓ쩔 정원찬',
+
+            
+
+            imageUrl: 'https://mblogthumb-phinf.pstatic.net/MjAyMzA1MjJfMTM0/MDAxNjg0NzYwNTczNzEx.zBY4RCvpoM7dXJuu6EvUps7xgITA_NzvFhhfSCBasA8g.b4kiu2_lugQ-FykxKE5R6zFgIola6cOT7DiOB0ZL7I4g.PNG.co755746/%EB%AC%B4%EC%A0%9C137%EF%BC%BF20230522220238.png?type=w800',
+
+            link: {
+
+              mobileWebUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+              webUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+            },
+
+          },
+
+          buttons: [
+
+            {
+
+              title: '다운 받기',
+
+              link: {
+
+                mobileWebUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+                webUrl: 'http://xn--sp5b7w13g.xn--hu5b25b77nvwc.xn--3e0b707e/',
+
+              },
+
+            },
+
+          ],
+
+        });
+
+      }
+
+    </script>
+
+    
+
+  </body>
+
+</html>
